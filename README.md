@@ -1,3 +1,21 @@
+# Electricity Consumption Prediction AI Competition
+
+## Overview
+
+Forecasting hourly electricity consumption for individual buildings from historical usage and weather data. The team placed **3rd of 934 participating teams**.
+
+## Approach and contributions
+
+- Analyzed usage patterns and anomalies by building, building type, hour, weekday, and holiday.
+- Built calendar, weather, and historical-usage features, including short-term changes relative to the same hour one week earlier.
+- Compared building-specific, building-type, and pooled models, then combined their predictions. The repository discusses TabPFN and AutoGluon-based approaches.
+
+The Korean write-up below contains the full exploratory analysis, feature engineering, modeling choices, and reflections.
+
+---
+
+## Detailed write-up (Korean)
+
 # Electricity-Consumption-Prediction-AI-Competition
 
 ---
